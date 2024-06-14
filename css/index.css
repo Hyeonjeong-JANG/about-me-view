@@ -67,6 +67,157 @@ body {
     text-decoration: none;
 }
 
+/* 배너 */
+.banner-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0 ;
+}
+
+.banner-slide {
+    display: none;
+    width: 100%;
+}
+
+.banner-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.categories ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories ul li a{
+   color: black;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.categories img{
+    color: black;
+    text-decoration: none;
+    width: 50px;height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+ }
+
+ /* 픽 사연 */
+ .pick-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.view-all {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.view-all:hover {
+    text-decoration: underline;
+}
+
+.card-container {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    gap: 20px; /* Add gap between cards */
+}
+
+.card {
+    flex: 0 0 calc(33.333% - 20px); /* Adjust this value to show 3 cards at a time with gap */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.next-slide {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.next-slide:hover {
+    background-color: #0056b3;
+}
+
+/* 나에게 맞는 전문가 */
+.expert-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #f0f8f8;
+}
+
+.expert-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    gap: 20px; /* Add gap between cards */
+}
+
+.card {
+    flex: 0 0 calc(25% - 20px); /* Adjust this value to show 3 cards at a time with gap */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.next-slide {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.next-slide:hover {
+    background-color: #0056b3;
+}
 /* 푸터 */
 .footer-ex {
     background-color: #f9f9f9;
@@ -74,8 +225,6 @@ body {
     border-top: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
