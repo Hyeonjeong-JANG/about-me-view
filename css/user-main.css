@@ -79,7 +79,9 @@ body {
   width: 100%;
 }
 
-
+.banner-container .card-container .card{
+  border: none;
+}
 .categories ul{
     display: flex;
     justify-content: space-between;
