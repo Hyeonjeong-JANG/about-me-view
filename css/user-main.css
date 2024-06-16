@@ -190,29 +190,29 @@ border-radius: 50%;
  .pick-container .card-bottom{
 display: flex;
  }
- .pick-container .card-bottom .counselor-img{
+ .pick-container .card-bottom .expert-img{
 width: 20px;height: 20px; margin-right: 10px;
 }
-.pick-container .card-bottom .counselor-img img{
+.pick-container .card-bottom .expert-img img{
 width: 100%;
 border-radius: 50%;
 }
 
   /* 나에게 맞는 전문가 */
 
-.counselor-ex{
+.expert-ex{
   width: 100vw;
   background-color: #EAF5F5;
   padding: 30px 0;
 }
 
-.counselor-container .card-container {
+.expert-container .card-container {
     scroll-behavior: smooth;
     display: flex;
     transition: transform 0.5s ease;
 }
 
-.counselor-container .card{
+.expert-container .card{
     flex: 0 0 calc(25% - 10px); 
     background-color: #fff;
     border-radius: 8px;
@@ -223,20 +223,20 @@ border-radius: 50%;
     margin: 0 5px;
  }
  
- .counselor-container .card-top .counselor-img{
+ .expert-container .card-top .expert-img{
     width: 45px;
     height: 45px;
  } 
 
- .counselor-container .card-top .counselor-img img{
+ .expert-container .card-top .expert-img img{
    width: 100%;
    border-radius: 50%;
  } 
 
- .counselor-container .card-top .counselor-name{
+ .expert-container .card-top .expert-name{
     font-weight: bold;
  } 
- .counselor-container .card-bottom.contact{
+ .expert-container .card-bottom.contact{
     display: flex;
     gap: 10px;
  }
@@ -344,16 +344,16 @@ border-radius: 50%;
   }
 
   /* 전문가 슬라이드 화살표 */
-  .counselor-container.swiper .swiper-wrapper .swiper-slide .swiper-slide-visible .swiper-slide-next {
+  .expert-container.swiper .swiper-wrapper .swiper-slide .swiper-slide-visible .swiper-slide-next {
     transform: translate3d(-55px, -10px, -290px) rotateX(0deg) rotateY(0deg) scale(1);
   }
-  .counselor-container.swiper .swiper-wrapper .swiper-slide .swiper-slide-visible .swiper-slide-prev {
+  .expert-container.swiper .swiper-wrapper .swiper-slide .swiper-slide-visible .swiper-slide-prev {
     transform: translate3d(55px, -10px, -290px) rotateX(0deg) rotateY(0deg) scale(1);
   }
-  .counselor-container.swiper .swiper-wrapper .swiper-slide a img {
+  .expert-container.swiper .swiper-wrapper .swiper-slide a img {
     width: 360px;
   }
-  .counselor-container.swiper .swiper-wrapper .swiper-slide a div {
+  .expert-container.swiper .swiper-wrapper .swiper-slide a div {
     position: absolute;
     bottom: 0;
     opacity: 0.6;
@@ -363,33 +363,33 @@ border-radius: 50%;
     background-color: #e6e6e6;
     box-sizing: border-box;
   }
-  .counselor-container.swiper .swiper-wrapper .swiper-slide a div p {
+  .expert-container.swiper .swiper-wrapper .swiper-slide a div p {
     font-size: 12px;
   }
-  .counselor-container.swiper .swiper-wrapper .swiper-slide a div b {
+  .expert-container.swiper .swiper-wrapper .swiper-slide a div b {
     font-size: 13px;
   }
-  .counselor-container.swiper .swiper-button-next,
-  .counselor-container.swiper .swiper-rtl .swiper-button-prev,
-  .counselor-container.swiper .swiper-button-prev,
-  .counselor-container.swiper .swiper-rtl .swiper-button-next {
+  .expert-container.swiper .swiper-button-next,
+  .expert-container.swiper .swiper-rtl .swiper-button-prev,
+  .expert-container.swiper .swiper-button-prev,
+  .expert-container.swiper .swiper-rtl .swiper-button-next {
     color: #e6e6e6;
     width: 60px;
     height: 50%;
   }
-  .counselor-container.swiper .swiper-button-prev,
-  .counselor-container.swiper .swiper-rtl .swiper-button-next {
+  .expert-container.swiper .swiper-button-prev,
+  .expert-container.swiper .swiper-rtl .swiper-button-next {
     left: -15px;
   }
-  .counselor-container.swiper .swiper-button-next,
-  .counselor-container.swiper .swiper-rtl .swiper-button-prev {
+  .expert-container.swiper .swiper-button-next,
+  .expert-container.swiper .swiper-rtl .swiper-button-prev {
     right: -15px;
   }
-  .counselor-container.swiper .swiper-scrollbar-drag {
+  .expert-container.swiper .swiper-scrollbar-drag {
     background-color: #fd8234;
   }
-  .counselor-container.swiper .horizontal > .swiper-scrollbar,
-  .counselor-container.swiper .swiper-scrollbar.swiper-scrollbar-horizontal {
+  .expert-container.swiper .horizontal > .swiper-scrollbar,
+  .expert-container.swiper .swiper-scrollbar.swiper-scrollbar-horizontal {
     height: 12px;
   }
 

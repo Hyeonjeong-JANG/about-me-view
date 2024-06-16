@@ -23,8 +23,8 @@ let pick_swiper = new Swiper(".pick-container", {
     },
   });
 
-  // counselor_swiper
-  let counselor_swiper = new Swiper(".counselor-container", {
+  // expert_swiper
+  let expert_swiper = new Swiper(".expert-container", {
     loop: true,
     autoplay: {
       delay: 2000,
@@ -32,8 +32,8 @@ let pick_swiper = new Swiper(".pick-container", {
     },
     slidesPerView: 4,
     navigation: {
-      nextEl: ".counselor-ex .swiper-button-next",
-      prevEl: ".counselor-ex .swiper-button-prev",
+      nextEl: ".expert-ex .swiper-button-next",
+      prevEl: ".expert-ex .swiper-button-prev",
     },
   });
 
