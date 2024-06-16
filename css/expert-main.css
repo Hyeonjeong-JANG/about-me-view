@@ -118,7 +118,7 @@ body {
     right: 10px;
     color: #666;
    }
-  /* 센터 화살표 */
+  /* 리뷰 화살표 */
   .review-container.swiper .swiper-wrapper .swiper-slide .swiper-slide-visible .swiper-slide-next {
     transform: translate3d(-55px, -10px, -290px) rotateX(0deg) rotateY(0deg) scale(1);
   }
@@ -167,6 +167,38 @@ body {
   .review-container.swiper .swiper-scrollbar.swiper-scrollbar-horizontal {
     height: 12px;
   }
+
+/* 상담일정 */
+.schedule table{
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0.075);
+}
 
 /* 푸터 */
 .footer-ex {
